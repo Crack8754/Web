@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'MyFont';
+    font-weight: 400;
+    src: url('Fonts/myfont2.ttf') format('woff2');
+    }
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'MyFont', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +22,7 @@ body {
 
 .logo {
     width: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 h1 {
@@ -29,6 +35,8 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: stretch;
+    width: 100%;
 }
 
 .h4 {
@@ -44,6 +52,9 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'MyFont', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 button:hover {
@@ -72,6 +83,8 @@ p a:hover {
     border-radius: 5px;
     font-size: 14px;
     margin-top: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .input-password {
@@ -83,6 +96,15 @@ p a:hover {
 #eye {
     height: 20px;
     position: absolute;
-    left: 250px;
+    left: 265px;
     top: 10px;
+    opacity: 0;
+}
+
+#eye2 {
+    height: 20px;
+    position: absolute;
+    left: 265px;
+    top: 10px;
+    opacity: 1;
 }
