@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'MyFont';
+    font-weight: 400;
+    src: url('Fonts/myfont2.ttf') format('woff2');
+    }
+
+body {
+    font-family: 'MyFont', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 2px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 32px;
+    color: #333333;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+    width: 100%;
+}
+
+.h4 {
+    font-size: 14px;
+    color: #555555;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #2559b9;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'MyFont', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+p {
+    font-size: 14px;
+    color: #777777;
+    margin-top: 15px;
+}
+
+p a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.input {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-password {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#eye {
+    height: 20px;
+    position: absolute;
+    left: 260px;
+    top: 10px;
+    opacity: 0;
+}
+
+#eye2 {
+    height: 20px;
+    position: absolute;
+    left: 262px;
+    top: 10px;
+    opacity: 1;
+}
